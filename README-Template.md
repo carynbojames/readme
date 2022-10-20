@@ -1,7 +1,8 @@
 # Project Title: Hello
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description 
-Create a new thing
+school
 
 ## Table of Contents
 - [Installation Instructions](#installation_instructions)
@@ -12,15 +13,15 @@ Create a new thing
 - [Questions](#questions)
 
 ## Installation Instructions
-Test
+Happy
 
 ## Usage
-work
+license
 
 ## License
-MIT
+Apache 2.0 License
 
 ## Questions
-- GitHub Username: carynbojames1
-- GitHub Profile Link: carynboajames.com
-- Email Address: caryn@gmail.com
+- **GitHub Username:** caryn
+- **GitHub Profile Link:** www.google.com
+- **Email Address:** caryn@gmail.com
