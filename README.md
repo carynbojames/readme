@@ -28,7 +28,7 @@ This section should provide repeatable sections that provides steps to the user 
 This README.md file uses the same structure as the recommended README.md template. This file acts as both an explanation of the tool and guidance for how to create a README.md file.
 
 Video Link w/ Example: 
-[Video Tutorial](https://drive.google.com/file/d/1SCKmmnF_dG8DINqg-aEtneJ928Qwj6kg/view)
+[Video Tutorial](https://drive.google.com/file/d/152_PHVOsI35EPOvI42X_j4yFCWOybAEj/view)
 
 
 ## License
