@@ -42,6 +42,9 @@ If you used any third-party assets that require attribution, list the creators w
 
 If you followed tutorials, include links to those here as well.
 
+## Tests
+Provide an explanation of the tests used to validate the program is working prooperly
+
 
 ## Questions
 For additional questions, reach out to the developer via the links below

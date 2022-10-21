@@ -32,6 +32,16 @@ inquirer
         },
         {
             type: 'input', 
+            name: 'contributing',
+            message: 'Enter other developers who helped contribute to the project',
+        },
+        {
+            type: 'input', 
+            name: 'tests',
+            message: 'Provide a description of the tests executed to validate the program',
+        },
+        {
+            type: 'input', 
             name: 'gitHubUsername',
             message: 'Enter your GitHub username',
         },
@@ -58,7 +68,7 @@ inquirer
         } else if (answers.license == 'The MIT License') {
             licenseIcon = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
         } else if (answers.license = 'Mozilla Public License 2.0') {
-            licenseIcon = '[![License: MPL 2.0](https://img.shields.io/}badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
+            licenseIcon = '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
         } else {
             answers.license = 'No license selected'
         }
@@ -72,14 +82,14 @@ ${licenseIcon}
 ${answers.description}
 
 ## Table of Contents
-- [Installation Instructions](#installation_instructions)
+- [Installation Instructions](#instructions)
 - [Usage](#usage)
 - [License](#license)
-- [Constributing](#contributing)
+- [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
 
-## Installation Instructions
+## Instructions
 ${answers.installation}
 
 ## Usage
@@ -87,6 +97,12 @@ ${answers.usage}
 
 ## License
 ${answers.license}
+
+## Contributing
+${answers.contributing}
+
+## Tests
+${answers.tests}
 
 ## Questions
 For additional questions reach out to the developer via the links below
