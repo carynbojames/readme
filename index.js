@@ -24,11 +24,11 @@ inquirer
             message: 'Provide a description for how the program can be used'
         },
         { 
-            type: 'checkbox',
+            type: 'list',
             name: 'license',
             message: 'Select one license',
-            choices: ['Apache', 'Boost', 'MIT']
-            // choices: ['Apache 2.0 License', 'Boost Software License 1.0', 'The MIT License', 'Mozilla Public License 2.0']
+            // choices: ['Apache', 'Boost', 'MIT']
+            choices: ['Apache 2.0 License', 'Boost Software License 1.0', 'The MIT License', 'Mozilla Public License 2.0']
         },
         {
             type: 'input', 
@@ -51,14 +51,14 @@ inquirer
         console.log(answers.license);
         console.log(answers.license[0]); 
         let licenseIcon;
-        if (answers.license = 'Apache') {
+        if (answers.license == 'Apache 2.0 License') {
             licenseIcon = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
-        } else if (answers.license = 'Boost') {
+        } else if (answers.license == 'Boost Software License 1.0') {
             licenseIcon = '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)';
-        } else if (answers.license = 'MIT') {
+        } else if (answers.license == 'The MIT License') {
             licenseIcon = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
-        // } else if (answers.license[0] = 'Mozilla Public License 2.0') {
-            // licenseIcon = '[![License: MPL 2.0](https://img.shields.io/}badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
+        } else if (answers.license = 'Mozilla Public License 2.0') {
+            licenseIcon = '[![License: MPL 2.0](https://img.shields.io/}badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
         } else {
             answers.license = 'No license selected'
         }
